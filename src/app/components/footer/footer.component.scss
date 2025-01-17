@@ -26,10 +26,12 @@
     padding: 1rem;
 }
 
-.text__media-social{
+.text__media-social a{
     cursor: pointer;
     padding: 1rem;
     gap: 1rem;
+    text-decoration: none;
+    color: black;
 }
 
 
