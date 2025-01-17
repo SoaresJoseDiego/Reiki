@@ -1,0 +1,12 @@
+<div class="glass-card">
+    <h3>{{title}}</h3>
+
+    <p>
+      {{content}}
+    </p>
+    <div class="footer">Fonte: {{font}}</div>
+    <div class="button__change">
+      <p-button (click)="changeContentAndFont()"  pTooltip="Clique Para Mais Curiosidades" label="Mais Curiosidades" [rounded]="true"  severity="success" />    
+      </div>
+  </div>
+  

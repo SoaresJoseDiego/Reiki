@@ -1,0 +1,74 @@
+.cards__center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20rem;
+}
+
+.img__test {
+    background-image: url('../../../assets/reiki_energia-bg.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.simple__card {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 40rem;
+    
+}
+
+.about_me{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 700px){
+    .img__test{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+
+    .cards__center {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+     margin-bottom: 1rem;
+    }
+
+    .about_me{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+ }
+
+ @media(max-width: 1300px){
+    .simple__card {
+        
+        width: 60%;
+        height: 35vh;
+        flex-direction: column;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+ }

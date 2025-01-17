@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    background-image: url(../../../assets/bg-about-me.png);
+}
+
+.title__uppercase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.first-letter {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1;
+    float: left;
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+}
+.text__mae p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.img__mae img {
+    width: 15rem;
+    height: auto;
+    max-height: 30rem;
+    margin-right: 2rem;
+    border-radius: 4rem;
+}
+
+
+
+@media (max-width: 700px) {
+    .content {
+        background: none;
+        flex-direction: column;
+        padding: 4rem;
+    }
+
+    .img__mae img {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .text__mae p {
+        margin: 1rem;
+    }
+
+    .first-letter {
+        font-size: 3em;
+    }
+    .title__uppercase{
+        margin-top: 5rem;
+        padding: 4rem;
+    }
+}
