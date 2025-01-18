@@ -57,7 +57,7 @@
     .glass-card {
 
         width: 100%;
-       height: 44vh;
+       height: auto;
        margin-top: 10rem;
        margin-bottom: 2rem;
        padding: 2rem;
@@ -75,7 +75,8 @@
     }
     .button__change{
        font-size: 1rem;
-       padding: 0.5rem;
+       padding: 0.4rem;
+       max-width: 100%;
     }
   
   }
