@@ -62,13 +62,11 @@
     }
  }
 
- @media(max-width: 1300px){
+ @media(max-width: 1050px){
     .simple__card {
-        
         width: 60%;
-        height: 35vh;
-        flex-direction: column;
-        padding: 1rem;
-        flex-wrap: wrap;
+        height: 45vh;
+        margin-left: 5rem;
+        padding: 5rem;
     }
  }
